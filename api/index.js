@@ -17,4 +17,4 @@ app.get('/jobs', async (req, res) => {
     return res.send(jobs)
 })
 
-app.listen(port, () => console.log(`Example app listening on port ${port}!`))
+app.listen(port, () => console.log(`App listening on port ${port}!`))
